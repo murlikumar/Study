@@ -1,0 +1,58 @@
+package com.simplepro;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class StudentRecord {
+	
+	public  ArrayList listOfRecords=new ArrayList();
+	public static void main(String[] args) {
+		
+		StudentRecord srec=new StudentRecord();
+		srec.listOfStudentRec();
+		Scanner sc=new Scanner(System.in);
+		do
+		{
+			
+			
+		}while('Y'.equals(decider));
+		
+		
+	}
+	public ArrayList listOfStudentRec()
+	{
+		try{
+			String line = "";
+		
+		File file=new File("record.txt");
+		FileReader fr=new FileReader(file);
+		System.out.println(file);
+		BufferedReader br=new BufferedReader(fr);
+		
+		while((line=br.readLine())!=null)
+		{
+			ArrayList listOfRecord=new ArrayList();
+			//System.out.println(line);
+			String []str=line.split(",");
+			
+			for(int i=0;i<str.length;i++)
+			{
+				listOfRecord.add(str[i]);
+			}
+			listOfRecords.add(listOfRecord);
+
+		}
+		System.out.println(listOfRecords);
+		
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex);
+		}
+		return listOfRecords;
+	}
+
+}

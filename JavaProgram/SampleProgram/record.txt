@@ -1,0 +1,7 @@
+12,murli,78
+150,santosh,89
+200,prasuna,76
+1500,mk,20
+3000,pradeep,98
+123,bala,98
+12345,manu,87

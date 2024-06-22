@@ -1,0 +1,43 @@
+package com.simplepro;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+
+public class StudentRecord {
+	
+	public static void main(String[] args) {
+		ArrayList listOfRecord=new ArrayList();
+		ArrayList listOfRecords=new ArrayList();
+		try{
+			String line = "";
+		
+		File file=new File("record.txt");
+		FileReader fr=new FileReader(file);
+		System.out.println(file);
+		BufferedReader br=new BufferedReader(fr);
+		
+		while((line=br.readLine())!=null)
+		{
+			
+			//System.out.println(line);
+			String []str=line.split(",");
+			System.out.println(str.length);
+//			for(int i=0;i<str.length;i++)
+//			{
+//				listOfRecord.add(str[i]);
+//			}
+//			listOfRecords.add(listOfRecord);
+
+		}
+		System.out.println(listOfRecords);
+		
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex);
+		}
+	}
+
+}

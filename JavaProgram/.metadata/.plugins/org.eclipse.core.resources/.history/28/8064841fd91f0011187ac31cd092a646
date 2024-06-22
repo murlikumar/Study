@@ -1,0 +1,33 @@
+package com.simplepro;
+
+public class A {
+	String st;
+	A (String s)
+	{
+		this.st=s;
+	}
+	public static void main(String[] args) {
+		
+		String s1=new String("Ram");
+		String s2=new String("Ram");
+		String s3="Ram";
+		String s4="Ram";
+		A a1=new A("siva");
+		A a2=new A("siva");
+		System.out.println(s1.equals(s2));
+		System.out.println(s2.equals(s1));
+		System.out.println(s1.equals(s3));
+		System.out.println(s3.equals(s1));
+		System.out.println(s2.equals(s3));
+		System.out.println(s3.equals(s2));
+		System.out.println(s3.equals(s4));
+		System.out.println(a1.equals(a2));
+		System.out.println(a1);
+		
+		
+	}
+	
+	
+	
+
+}

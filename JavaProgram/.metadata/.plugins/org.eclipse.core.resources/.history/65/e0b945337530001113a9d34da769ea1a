@@ -1,0 +1,100 @@
+package com.simplepro;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class StudentRecord {
+	
+	public  ArrayList listOfRecords=new ArrayList();
+
+	public static void main(String[] args) {
+		
+		StudentRecord srec=new StudentRecord();
+	ArrayList arr=srec.listOfStudentRec();
+	//System.out.println(arr);
+		Scanner sc=new Scanner(System.in);
+		String decider=null; 
+		do
+		{
+			System.out.println("enter the id");
+			int id=Integer.parseInt(sc.nextLine());
+			System.out.println(id);
+			//System.out.println(arr.size());
+			ArrayList ar=new ArrayList();
+			String result="No";
+			for(int i=0;i<arr.size();i++)
+			{
+				//System.out.println(arr.get(i));
+				ar=(ArrayList) arr.get(i);
+				//System.out.println(ar.get(0));
+				
+				/*if(id == Integer.parseInt(((String)ar.get(0))))
+				{
+					//System.out.println("done");
+					result="Done";
+				}
+				else
+				{
+					//System.out.println("no");
+					
+				}*/
+				
+			}
+			if(id == Integer.parseInt(((String)ar.get(0))))
+			{
+				System.out.println("done");
+				//result="Done";
+			}
+			else
+			{
+				System.out.println("no");
+				
+			}
+			
+			
+			System.out.println("do u want cont?");
+			decider=sc.nextLine();
+			
+			
+			
+		}while("Y".equalsIgnoreCase(decider));
+		
+		
+	}
+	public ArrayList listOfStudentRec()
+	{
+		try{
+			String line = "";
+		
+		File file=new File("record.txt");
+		FileReader fr=new FileReader(file);
+		System.out.println(file);
+		BufferedReader br=new BufferedReader(fr);
+		
+		while((line=br.readLine())!=null)
+		{
+			ArrayList listOfRecord=new ArrayList();
+			//System.out.println(line);
+			String []str=line.split(",");
+			
+			for(int i=0;i<str.length;i++)
+			{
+				listOfRecord.add(str[i]);
+			}
+			listOfRecords.add(listOfRecord);
+
+		}
+		System.out.println(listOfRecords);
+		
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex);
+		}
+		return listOfRecords;
+	}
+
+}

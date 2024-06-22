@@ -1,0 +1,24 @@
+package com.simplepro;
+
+public class Test {
+	
+	
+	public static void main(String[] args) {
+		
+		String s1="JA";
+		String s2="VA";
+		String s3=s1+s2;
+		String s4="JAVA";
+		String s5="JA" + s2;
+		String s6="JA"+"VA";
+		
+		System.out.println("s3==s4" +s3==s4);
+		System.out.println("s3==s5" +s3==s5);
+		System.out.println("s3==s6" +s3==s6);
+		System.out.println("s4==s5" +s4==s5);
+		System.out.println("s4==s6" +s4==s6);
+		System.out.println("s1==s2" +s1==s2);
+	}
+	
+
+}

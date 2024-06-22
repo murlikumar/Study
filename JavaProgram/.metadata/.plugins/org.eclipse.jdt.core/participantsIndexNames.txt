@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+E:\JavaProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2669776963.index
+\MyPractice\src

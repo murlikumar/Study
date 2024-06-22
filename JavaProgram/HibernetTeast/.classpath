@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/ant-1.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/ant-antlr-1.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/ant-junit-1.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/ant-launcher-1.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/antlr-2.7.6rc1.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/antlr.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/ant-swing-1.6.5.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/asm.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/c3p0-0.9.0.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/cleanimports.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/commons-validator.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/concurrent-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/connector.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jaas.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jacc-1_0-fr.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jaxen-1.1-beta-7.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jboss-cache.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jboss-common.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jboss-jmx.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jboss-system.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jgroups-2.2.8.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/jta.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/mysql-connector-java-5.0.6-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/oscache-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/struts.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/swarmcache-1.0rc2.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/syndiag2.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/versioncheck.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/xerces-2.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/Murli_CU/web-dev/spring-hibernate examples/Spring3Hibernate/lib/xml-apis.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

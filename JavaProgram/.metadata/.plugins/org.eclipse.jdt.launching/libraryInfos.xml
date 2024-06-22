@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\IBM\JAVA50" version="1.5.0">
+<bootpath>
+<entry path="D:\IBM\JAVA50\jre\lib\vm.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\core.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\charsets.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\graphics.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\security.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmpkcs.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmorb.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmcfw.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmorbapi.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmjcefw.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmjgssprovider.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmjaaslm.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmjaasactivelm.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\server.jar"/>
+<entry path="D:\IBM\JAVA50\jre\lib\xml.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\IBM\JAVA50\jre\lib\ext"/>
+</extensionDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jdk1.6.0_17" version="1.6.0_17">
+<bootpath>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jdk1.6.0_17\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

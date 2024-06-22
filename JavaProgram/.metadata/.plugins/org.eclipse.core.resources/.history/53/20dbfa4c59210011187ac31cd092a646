@@ -1,0 +1,19 @@
+package com.simplepro;
+
+import java.io.*;
+
+public class FreeSpace {
+	
+	public static void main(String[] args) {
+		  File[] drive = File.listRoots();
+
+		    for (int i = 0; i < drive.length; i++) {
+		      System.out.println(drive[i]);
+		    double freebyte = ((Object) drive[i]).getFreeSpace();
+		    double temp = Math.pow(1024,3);
+		    double freegb = (double)freebyte/temp;
+		    System.out.println("Free space "+freegb+" GB");
+		     }
+		  }
+
+}

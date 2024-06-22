@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+E:\JavaProgram\Poject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2433713072.index
+\ChattingApplication\src

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="javacode"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/MyPractice/WebContent/WEB-INF/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="/MyPractice/WebContent/WEB-INF/lib/mysql-connector-java-5.0.6-bin.jar"/>
+	<classpathentry kind="lib" path="jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.0.6-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
