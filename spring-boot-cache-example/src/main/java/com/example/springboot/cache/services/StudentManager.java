@@ -21,7 +21,7 @@ public class StudentManager {
         student.put(5, new Student(104, "Maria", "Female", "Houston"));
     }
 
-    @Cacheable(key="#id", condition="#id>3", value = "strudentInfo")
+    @Cacheable(key="#id", condition="#id>3", value = "studentInfo")
     public Student getStudentById(Integer id)
     {
         System.out.println("Fetching student data from cache");
